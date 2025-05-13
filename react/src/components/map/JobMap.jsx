@@ -12,7 +12,7 @@ export default function JobMap({ location }) {
 
     useEffect(() => {
         const handleConvert = () => {
-            const apiKey = "AIzaSyD5jc3qLhA6YtegDcyd6DRL4PjEeVn8PR4";
+            const apiKey = "";
             const encodedAddress = encodeURIComponent(address);
             const apiUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}&key=${apiKey}`;
 
